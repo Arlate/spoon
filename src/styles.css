@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)), url(https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#recipe-card {
+    background-color: lightgray;
+    font-size: 1.5rem;
+}
+
+#eq-image {
+    max-width: 30%;
+    max-height: 20rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+#card-instruct {
+    height: 35rem;
+    font-size: 1.15rem;
+}
+
+#instruction-btn {
+    position : absolute;
+    bottom   : 1rem;
+}
+
+#instruction-header {
+    font-size: 1.25rem;
+}
+
+#ingredient-img {
+    height: 4rem;
+}
+
+.ingredient-desc {
+    position: absolute;
+    left: 12rem;
+    top: 2rem;
+}
+
+#list-ingredient {
+    height: 5rem;
+}
+
+#recipe-a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+.loading-pane {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+  
+.loader {
+    font-size: 100px;
+    animation: spin 1s linear infinite;
+}
+  
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+#link-to-main {
+    margin-left: 2rem;
+}
+
+#home-img {
+    max-height: 100px;
+}
+
+.form-label {
+    color: white;
+    font-size: 1.45rem;
+}
